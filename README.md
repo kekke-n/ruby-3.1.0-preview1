@@ -15,6 +15,9 @@ tar -zxvf ruby-3.1.0-preview1.tar.gz # untar
 ```   
 
 ### Build from Source Code
+
+https://www.ruby-lang.org/ja/documentation/installation/
+
 ```
 cd ruby-3.1.0-preview1
 ./configure --prefix="`pwd | xargs dirname`/installed_files" 
