@@ -12,12 +12,7 @@ https://www.ruby-lang.org/en/news/2021/11/09/ruby-3-1-0-preview1-released/
 
 ```
 wget https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.0-preview1.tar.gz
-```   
-
-### Untar
-
-```
-tar -zxvf ruby-3.1.0-preview1.tar.gz
+tar -zxvf ruby-3.1.0-preview1.tar.gz # untar
 ```   
 
 ### Build from Source Code
