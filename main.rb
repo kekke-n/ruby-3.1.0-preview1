@@ -1,5 +1,7 @@
 puts "hello ruby 3.1.0 !"
 
+puts ""
+
 puts <<'TEXT'
 ・Values in Hash literals and keyword arguments can be omitted. [Feature #14579]
 TEXT
