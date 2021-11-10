@@ -1,11 +1,18 @@
-puts "hello ruby 3.1.0!"
+puts "hello ruby 3.1.0 !"
 
-puts "normal syntax"
-a = 'hoge'
-a = {a: a}
-puts a
+puts <<'TEXT'
+・Values in Hash literals and keyword arguments can be omitted. [Feature #14579]
+TEXT
 
-puts "syntax sugar"
 a = 'hoge'
-a = {a: }
-puts a
+
+h = { a: a }
+puts <<"TEXT"
+      normal syntax : { a : a } => #{h}
+TEXT
+
+h = { a: }
+puts <<"TEXT"
+      syntax sugar : { a: } => #{h}
+TEXT
+
